@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	font-family: 'Russo One', sans-serif;
+}
+
+
+.top {
+	display: inline-block;
+	vertical-align: top; 
+	/* border: 2px solid red; */
+	/* T R B L */
+	width: 650px;
+	height: 50px;
+	padding: 15px 0 0 0;
+	margin: 0 0 0 200px;
+	background-color: aliceblue;
+	position: fixed;
+}
+
+.top a {
+	/* T R B L */
+	padding: 0 25px 0 25px;
+	text-decoration: none;
+	color: grey;
+}
+
+.top a:hover {
+	background-color: mediumspringgreen;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid blue; */
+	/* T R B L */
+	width: 220px;
+	height: 50px;
+	position: fixed;
+	margin: 0 0 0 850px;
+	background-color: aliceblue;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	/* border: 2px solid red; */
+	width: 440px;
+	height: 400px;
+	padding: 50px 0 100px 0;
+	margin: 50px 0 0 200px;
+}
+
+.title h1 {
+	font-size: 50px;
+}
+
+.title h6 {
+	display: inline-block;
+	font-size: 15px;
+	border: 2px solid black;
+	padding: 10px 30px 10px 30px;
+	
+}
+
+.title a {
+	text-decoration: none;
+}
+
+.title a:hover {
+	background-color: mediumspringgreen;
+}
+.circlepic {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	width: 440px;
+	height: 400px;
+	padding: 0 0 0 0;
+	margin: 50px 0 0 0;
+}
+
+.line {
+	width: 880px;
+	height: 5px;
+	border-bottom: 1px solid black;
+	/* position: absolute; */
+	margin: 0 0 0 200px;
+}
+
+.features {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	/* T R B L */
+	width: 440px;
+	height: 150px;
+	padding: 25px 0 0 0;
+	margin: 0 0 0 200px;
+}
+
+.about {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	width: 440px;
+	height: 150px;
+	padding: 25px 0 0 0;
+}
+
+.middle-img {
+	/* T R B L */
+	margin: 0 0 0 200px;
+}
+
+.services {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	width: 290px;
+	height: 200px;
+	padding: 50px 0 0 0;
+	margin: 0 0 0 200px;
+}
+
+.product {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	width: 290px;
+	height: 200px;
+	padding: 50px 0 0 0;
+}
+
+.vision {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	width: 290px;
+	height: 200px;
+	padding: 50px 0 0 0;
+}
+
+.contact {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	padding: 30px 0 0 0;
+	margin: 0 0 0 200px;
+}
+
+.copyright {
+	display: inline-block;
+	vertical-align: top;
+	/* border: 2px solid red; */
+	margin: 100px 0 100px 500px;
+
+}
